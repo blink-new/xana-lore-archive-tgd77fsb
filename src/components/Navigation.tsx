@@ -15,12 +15,14 @@ const Navigation = ({ activeSection, onSectionChange }: NavigationProps) => {
     { id: 'timeline', label: 'EVENTS TIMELINE', icon: '◎' },
     { id: 'memories', label: 'MEMORY FRAGMENTS', icon: '◇' },
     { id: 'manifestations', label: 'MANIFESTATIONS', icon: '◆' },
-    { id: 'sectors', label: 'LYOKO SECTORS', icon: '◐' }
+    { id: 'sectors', label: 'LYOKO SECTORS', icon: '◐' },
+    { id: 'warriors', label: 'LYOKO WARRIORS', icon: '⚔' },
+    { id: 'interface', label: 'XANA INTERFACE', icon: '☠' }
   ]
 
   return (
     <nav className="w-full max-w-4xl mx-auto mb-8">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2">
         {sections.map((section) => (
           <Button
             key={section.id}

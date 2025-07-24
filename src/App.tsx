@@ -8,6 +8,8 @@ import EventsTimeline from './components/EventsTimeline'
 import MemoryFragments from './components/MemoryFragments'
 import XanaManifestations from './components/XanaManifestations'
 import LyokoSectors from './components/LyokoSectors'
+import LyokoWarriors from './components/LyokoWarriors'
+import XanaInterface from './components/XanaInterface'
 
 function App() {
   const [activeSection, setActiveSection] = useState('archive')
@@ -26,6 +28,10 @@ function App() {
         return <XanaManifestations />
       case 'sectors':
         return <LyokoSectors />
+      case 'warriors':
+        return <LyokoWarriors />
+      case 'interface':
+        return <XanaInterface />
       default:
         return <MainArchive />
     }
