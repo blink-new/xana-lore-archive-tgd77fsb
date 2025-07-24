@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* XANA Color Scheme */
+    --xana-red: 0 100% 50%;
+    --xana-green: 120 100% 50%;
+    --xana-black: 0 0% 0%;
+    --xana-dark: 0 0% 4%;
+    --xana-gray: 0 0% 15%;
+    --xana-light-gray: 0 0% 25%;
+    
+    /* Override default theme with XANA colors */
+    --background: var(--xana-black);
+    --foreground: var(--xana-green);
+    --card: var(--xana-dark);
+    --card-foreground: var(--xana-green);
+    --popover: var(--xana-dark);
+    --popover-foreground: var(--xana-green);
+    --primary: var(--xana-red);
+    --primary-foreground: var(--xana-black);
+    --secondary: var(--xana-gray);
+    --secondary-foreground: var(--xana-green);
+    --muted: var(--xana-gray);
+    --muted-foreground: var(--xana-light-gray);
+    --accent: var(--xana-green);
+    --accent-foreground: var(--xana-black);
+    --destructive: var(--xana-red);
+    --destructive-foreground: var(--xana-green);
+    --border: var(--xana-gray);
+    --input: var(--xana-gray);
+    --ring: var(--xana-red);
+    --radius: 0.25rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-black text-green-500 font-rajdhani;
+
+    font-family: Rajdhani, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .font-orbitron {
+    font-family: Orbitron, monospace;
+  }
+  
+  .font-rajdhani {
+    font-family: Rajdhani, sans-serif;
+  }
+}
+
+@layer components {
+  /* Digital Rain Animation */
+  .digital-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 10%;
+  }
+  
+  .rain-drop {
+    position: absolute;
+    color: #0f0;
+    font-family: Orbitron, monospace;
+    font-size: 14px;
+    animation: rain-fall linear infinite;
+  }
+  
+  @keyframes rain-fall {
+    0% {
+      transform: translateY(-100vh);
+      opacity: 100%;
+    }
+
+    100% {
+      transform: translateY(100vh);
+      opacity: 0%;
+    }
+  }
+  
+  /* Glitch Effect */
+  .glitch {
+    position: relative;
+    animation: glitch 2s infinite;
+  }
+  
+  .glitch::before,
+  .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .glitch::before {
+    animation: glitch-1 0.5s infinite;
+    color: #f00;
+    z-index: -1;
+  }
+  
+  .glitch::after {
+    animation: glitch-2 0.5s infinite;
+    color: #0f0;
+    z-index: -2;
+  }
+  
+  @keyframes glitch {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+  }
+  
+  @keyframes glitch-1 {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(2px, -2px); }
+    40% { transform: translate(-2px, 2px); }
+    60% { transform: translate(-2px, -2px); }
+    80% { transform: translate(2px, 2px); }
+  }
+  
+  @keyframes glitch-2 {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(-2px, -2px); }
+  }
+  
+  /* Pulsing Animation */
+  .pulse-red {
+    animation: pulse-red 2s infinite;
+  }
+  
+  @keyframes pulse-red {
+    0%, 100% { 
+      box-shadow: 0 0 5px #f00, 0 0 10px #f00, 0 0 15px #f00;
+      opacity: 100%;
+    }
+
+    50% { 
+      box-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00;
+      opacity: 80%;
+    }
+  }
+  
+  /* Scan Lines */
+  .scan-lines {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .scan-lines::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      transparent 50%,
+      rgb(0 255 0 / 3%) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    animation: scan 0.1s linear infinite;
+  }
+  
+  @keyframes scan {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(4px); }
+  }
+  
+  /* Terminal Cursor */
+  .terminal-cursor::after {
+    content: '█';
+    color: #0f0;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 100%; }
+    51%, 100% { opacity: 0%; }
+  }
+  
+  /* Circuit Board Pattern */
+  .circuit-bg {
+    background-image: 
+      radial-gradient(circle at 25% 25%, #00ff0020 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, #ff000020 2px, transparent 2px),
+      linear-gradient(90deg, transparent 24%, #00ff0010 25%, #00ff0010 26%, transparent 27%, transparent 74%, #ff000010 75%, #ff000010 76%, transparent 77%),
+      linear-gradient(0deg, transparent 24%, #00ff0010 25%, #00ff0010 26%, transparent 27%, transparent 74%, #ff000010 75%, #ff000010 76%, transparent 77%);
+    background-size: 50px 50px;
+  }
+  
+  /* Holographic Effect */
+  .holographic {
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgb(0 255 0 / 10%) 50%,
+      transparent 70%
+    );
+    background-size: 20px 20px;
+    animation: hologram 3s linear infinite;
+  }
+  
+  @keyframes hologram {
+    0% { background-position: 0 0; }
+    100% { background-position: 20px 20px; }
+  }
+}
