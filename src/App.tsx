@@ -3,6 +3,11 @@ import DigitalRain from './components/DigitalRain'
 import XanaLogo from './components/XanaLogo'
 import Navigation from './components/Navigation'
 import MainArchive from './components/MainArchive'
+import LoreDatabase from './components/LoreDatabase'
+import EventsTimeline from './components/EventsTimeline'
+import MemoryFragments from './components/MemoryFragments'
+import XanaManifestations from './components/XanaManifestations'
+import LyokoSectors from './components/LyokoSectors'
 
 function App() {
   const [activeSection, setActiveSection] = useState('archive')
@@ -12,15 +17,15 @@ function App() {
       case 'archive':
         return <MainArchive />
       case 'lore':
-        return <div className="text-center text-xana-green font-rajdhani text-xl">LORE DATABASE - Coming Soon...</div>
+        return <LoreDatabase />
       case 'timeline':
-        return <div className="text-center text-xana-green font-rajdhani text-xl">EVENTS TIMELINE - Coming Soon...</div>
+        return <EventsTimeline />
       case 'memories':
-        return <div className="text-center text-xana-green font-rajdhani text-xl">MEMORY FRAGMENTS - Coming Soon...</div>
+        return <MemoryFragments />
       case 'manifestations':
-        return <div className="text-center text-xana-green font-rajdhani text-xl">MANIFESTATIONS - Coming Soon...</div>
+        return <XanaManifestations />
       case 'sectors':
-        return <div className="text-center text-xana-green font-rajdhani text-xl">LYOKO SECTORS - Coming Soon...</div>
+        return <LyokoSectors />
       default:
         return <MainArchive />
     }
@@ -52,10 +57,14 @@ function App() {
         </div>
 
         {/* Content Area */}
-        <main className="container mx-auto px-4 pb-12">
-          <div className="max-w-6xl mx-auto">
-            {renderSection()}
-          </div>
+        <main className={activeSection === 'archive' ? "container mx-auto px-4 pb-12" : ""}>
+          {activeSection === 'archive' ? (
+            <div className="max-w-6xl mx-auto">
+              {renderSection()}
+            </div>
+          ) : (
+            renderSection()
+          )}
         </main>
 
         {/* Footer */}
