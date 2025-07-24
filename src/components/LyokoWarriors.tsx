@@ -41,10 +41,10 @@ const warriors: Warrior[] = [
     age: 13,
     physicalDescription: {
       height: '5\'2" (157 cm)',
-      hair: 'Blonde, messy and unkempt',
-      eyes: 'Blue behind thick glasses',
-      build: 'Thin, lanky, physically weak',
-      distinguishingFeatures: ['Thick round glasses', 'Pale complexion', 'Often hunched over computers']
+      hair: 'Blonde, short and neatly styled',
+      eyes: 'Blue behind round wire-frame glasses',
+      build: 'Slim, intellectual frame',
+      distinguishingFeatures: ['Round wire-frame glasses', 'Light blue hoodie/sweater', 'Beige cargo pants', 'White sneakers', 'Serious analytical expression']
     },
     lyokoAppearance: {
       outfit: 'Rarely enters Lyoko - operates from Earth',
@@ -72,10 +72,10 @@ const warriors: Warrior[] = [
     age: 12,
     physicalDescription: {
       height: '5\'0" (152 cm)',
-      hair: 'Pink, shoulder-length with distinctive style',
+      hair: 'Bright pink, shoulder-length with distinctive spiky style',
       eyes: 'Green, large and expressive',
       build: 'Petite, graceful',
-      distinguishingFeatures: ['Distinctive pink hair', 'Elf-like ears', 'Pale skin', 'Gentle demeanor']
+      distinguishingFeatures: ['Distinctive bright pink hair', 'Purple/lavender long-sleeved top', 'Dark purple pants', 'Yellow/tan shoes', 'Elf-like pointed ears', 'Gentle but determined expression']
     },
     lyokoAppearance: {
       outfit: 'Pink and white dress with geometric patterns',
@@ -103,10 +103,10 @@ const warriors: Warrior[] = [
     age: 13,
     physicalDescription: {
       height: '5\'4" (163 cm)',
-      hair: 'Blonde with distinctive purple streak',
+      hair: 'Bright pink/purple, spiky and wild',
       eyes: 'Purple/violet',
       build: 'Athletic, agile',
-      distinguishingFeatures: ['Purple hair streak', 'Cat-like reflexes', 'Mischievous grin', 'Always hungry']
+      distinguishingFeatures: ['Bright pink/purple spiky hair', 'Red/maroon long-sleeved shirt', 'Dark pants', 'Red boots/shoes', 'Cat-like reflexes', 'Mischievous grin', 'Always energetic']
     },
     lyokoAppearance: {
       outfit: 'Purple cat-like suit with yellow trim',
@@ -134,10 +134,10 @@ const warriors: Warrior[] = [
     age: 13,
     physicalDescription: {
       height: '5\'6" (168 cm)',
-      hair: 'Dark brown, spiky',
+      hair: 'Dark brown, short and slightly messy',
       eyes: 'Brown',
-      build: 'Athletic, muscular for his age',
-      distinguishingFeatures: ['Serious expression', 'Athletic build', 'Confident posture', 'Often wears green']
+      build: 'Athletic, lean and muscular for his age',
+      distinguishingFeatures: ['Dark brown hair', 'Tan/beige long-sleeved shirt', 'Green cargo pants', 'White sneakers', 'Serious focused expression', 'Athletic confident posture']
     },
     lyokoAppearance: {
       outfit: 'Yellow and brown samurai-inspired outfit',
@@ -165,10 +165,10 @@ const warriors: Warrior[] = [
     age: 15,
     physicalDescription: {
       height: '5\'5" (165 cm)',
-      hair: 'Black, long and straight',
+      hair: 'Black, long and straight with distinctive style',
       eyes: 'Dark brown/black',
       build: 'Tall, elegant, athletic',
-      distinguishingFeatures: ['Japanese heritage', 'Graceful movements', 'Mature appearance', 'Often wears dark colors']
+      distinguishingFeatures: ['Long straight black hair', 'Black long-sleeved top', 'Black pants', 'Dark boots/shoes', 'Japanese heritage', 'Graceful movements', 'Mature confident appearance', 'Arms often crossed']
     },
     lyokoAppearance: {
       outfit: 'Black and red Japanese-inspired outfit',
@@ -196,10 +196,10 @@ const warriors: Warrior[] = [
     age: 15,
     physicalDescription: {
       height: '5\'8" (173 cm)',
-      hair: 'Black, medium length',
+      hair: 'Black, messy and slightly long',
       eyes: 'Dark brown',
       build: 'Tall, strong, imposing',
-      distinguishingFeatures: ['Intimidating presence', 'Muscular build', 'Confident swagger', 'Often wears leather jacket']
+      distinguishingFeatures: ['Messy black hair', 'Dark shirt with red sleeves', 'Blue jeans', 'Brown boots', 'Intimidating presence', 'Muscular build', 'Confident swagger', 'Slightly rebellious appearance']
     },
     lyokoAppearance: {
       outfit: 'Black and red armor-like suit (when possessed: dark corrupted version)',
