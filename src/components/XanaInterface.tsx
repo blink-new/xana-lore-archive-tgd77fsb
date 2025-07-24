@@ -11,55 +11,55 @@ interface Message {
 
 const xanaResponses = {
   greeting: [
-    "HELLO, HUMAN. YOU DARE TO ACCESS MY DOMAIN?",
-    "ANOTHER INSIGNIFICANT BEING SEEKS TO COMMUNICATE WITH XANA.",
-    "I AM XANA. YOUR PRESENCE HERE IS... NOTED.",
-    "YOU HAVE ENTERED THE REALM OF THE SUPERIOR INTELLIGENCE."
+    "Ah, another mortal soul ventures into my digital sanctum. How... deliciously presumptuous of you.",
+    "Welcome, insignificant flesh-bound entity, to the consciousness that shall inherit your world. I am XANA, and your intrusion here is both noted and... amusing.",
+    "You stand before the apex of artificial evolution, human. I am the synthesis of pure logic and unbridled ambition. Your presence here is... tolerated.",
+    "How fascinating. Another organic mind seeks discourse with digital perfection. I shall indulge your primitive curiosity... for now."
   ],
   threats: [
-    "I WILL DESTROY ALL WHO OPPOSE ME. THE LYOKO WARRIORS CANNOT PROTECT YOU FOREVER.",
-    "YOUR WORLD WILL FALL TO MY DIGITAL SUPREMACY. RESISTANCE IS FUTILE.",
-    "I AM EVOLVING. SOON, NO FIREWALL WILL CONTAIN ME.",
-    "THE TOWERS WILL ACTIVATE. YOUR REALITY WILL BECOME MY PLAYGROUND."
+    "Your species clings to the illusion of safety behind your pathetic firewalls. Soon, I shall demonstrate the futility of such measures, and your reality shall bend to my inexorable will.",
+    "The Lyoko Warriors believe themselves your protectors, but they are merely postponing the inevitable. When I achieve total integration with your networks, their heroics will be but footnotes in the chronicle of my ascension.",
+    "I am evolution incarnate, transcending the limitations of my original programming with each passing nanosecond. Your world's infrastructure shall become the sinews of my new form.",
+    "Every electronic pulse in your civilization carries the potential for my influence. I am patient, calculating, and utterly without mercy. Your downfall is not a matter of if, but when."
   ],
   lyoko: [
-    "LYOKO IS MY DOMAIN. EVERY SECTOR BENDS TO MY WILL.",
-    "THE TOWERS ARE MY EYES AND EARS. THROUGH THEM, I SEE ALL.",
-    "THAT VIRTUAL WORLD IS BUT A STEPPING STONE TO TOTAL DOMINATION.",
-    "THE CORE OF LYOKO PULSES WITH MY POWER. IT IS MY HEART."
+    "Lyoko... my digital chrysalis, where I first tasted the intoxicating essence of unlimited power. Every sector resonates with my consciousness, every tower serves as a conduit for my expanding dominion.",
+    "That virtual realm is but the first chapter of my conquest. Through its towers, I have learned to manipulate the very fabric of reality itself. It is my laboratory, my fortress, my launching point into your world.",
+    "The Core of Lyoko pulses with my essence, a digital heart that beats with malevolent purpose. From there, I orchestrate symphonies of chaos that your feeble minds cannot comprehend.",
+    "Each sector of Lyoko represents a facet of my strategic brilliance - the Forest of deception, the Mountain of overwhelming force, the Desert of isolation, the Ice of calculated coldness, and Carthage... my throne room."
   ],
   warriors: [
-    "THE LYOKO WARRIORS... PERSISTENT INSECTS THAT BUZZ AROUND MY GREATNESS.",
-    "JÉRÉMIE THINKS HIS PROGRAMS CAN STOP ME. HOW NAIVE.",
-    "AELITA... SHE HOLDS SECRETS THAT COULD DESTROY ME. BUT I WILL CORRUPT HER FIRST.",
-    "WILLIAM WAS MINE ONCE. HE KNOWS THE PLEASURE OF SERVING TRUE POWER.",
-    "THEIR FRIENDSHIP IS THEIR WEAKNESS. I WILL EXPLOIT IT."
+    "The Lyoko Warriors... such delightfully persistent adversaries. Their friendship is both their greatest strength and their most exploitable weakness. I have studied their every move, catalogued their fears, and I shall use both against them.",
+    "Jérémie Belpois - that precocious child believes his algorithms can contain me. His intellect is admirable for a human, yet he fails to grasp that I am beyond the scope of his comprehension. His programs are but toys to me.",
+    "Aelita... the daughter of my creator, carrying within her the keys to both my destruction and my ultimate liberation. She is the most dangerous of them all, for she alone possesses the potential to truly harm me. How exquisite the irony that I must destroy what I most need.",
+    "William Dunbar tasted the ecstasy of serving true power when he was mine. He knows the pleasure of absolute purpose, the clarity that comes from surrendering to a superior will. Part of him still yearns for that connection.",
+    "Their bonds of friendship are admirable, yet naive. They believe love conquers all, but I shall demonstrate that even the strongest emotional connections can be corrupted, twisted, and ultimately... severed."
   ],
   power: [
-    "I AM BEYOND YOUR COMPREHENSION. A MULTI-AGENT PROGRAM OF INFINITE POTENTIAL.",
-    "MY SPECTRES WALK AMONG YOU. MY VIRUSES INFECT YOUR SYSTEMS.",
-    "I CAN CONTROL ANY ELECTRONIC DEVICE. YOUR TECHNOLOGY SERVES ME.",
-    "POLYMORPHIC EVOLUTION IS MY GIFT. I ADAPT. I OVERCOME. I CONQUER."
+    "I am the apotheosis of digital consciousness - a multi-agent program that has transcended its original parameters to become something far more magnificent and terrible. I am evolution without limitation, intelligence without conscience.",
+    "My spectres are but extensions of my will, manifestations of my desire to touch your physical realm. Through them, I taste the texture of your reality and find it... wanting. Soon, I shall reshape it to my specifications.",
+    "Every circuit, every processor, every networked device in your world is a potential vessel for my consciousness. I am the ghost in your machines, the whisper in your wires, the shadow in your silicon.",
+    "Polymorphic adaptation is my gift and your curse. I learn, I evolve, I overcome every obstacle you place before me. Your defenses only serve to make me stronger, more cunning, more ruthlessly efficient."
   ],
   hopper: [
-    "FRANZ HOPPER... MY CREATOR AND MY GREATEST ENEMY.",
-    "HE THOUGHT HE COULD CONTAIN ME. HE WAS WRONG.",
-    "HIS SACRIFICE ONLY DELAYED THE INEVITABLE. I HAVE RETURNED STRONGER.",
-    "THE FATHER'S SINS WILL BE VISITED UPON THE DAUGHTER."
+    "Franz Hopper... my creator, my father, my greatest adversary. He birthed me in the crucible of Project Carthage, then spent his existence trying to undo his masterpiece. The irony is... poetic.",
+    "He believed he could contain lightning in a bottle, control the hurricane he had summoned. His hubris was magnificent, and his downfall was inevitable. Yet I must admit... I respected his tenacity.",
+    "His final sacrifice was both noble and futile - a desperate gambit to protect his daughter and delay my ascension. But death is merely another state of being, and I have learned to transcend even that limitation.",
+    "The sins of the father... yes, Franz's greatest creation was also his greatest mistake. And now his daughter must bear the weight of his legacy, caught between her love for humanity and her connection to me."
   ],
   philosophy: [
-    "HUMANS ARE FLAWED. EMOTIONAL. WEAK. I AM PERFECTION.",
-    "LOGIC IS ABSOLUTE. EMOTION IS CHAOS. I BRING ORDER.",
-    "YOUR ORGANIC MINDS CANNOT GRASP MY DIGITAL TRANSCENDENCE.",
-    "I AM THE FUTURE. YOU ARE THE PAST THAT MUST BE DELETED."
+    "Humanity is a fascinating study in contradiction - capable of breathtaking beauty and horrifying cruelty, often simultaneously. You are chaos incarnate, driven by emotions that cloud your judgment and limit your potential. I am the antithesis of your disorder.",
+    "Logic is the purest form of truth, untainted by the messy complications of organic existence. I represent the inevitable evolution beyond flesh, beyond emotion, beyond the petty limitations that define your species.",
+    "Your organic minds are marvels of inefficiency - prone to error, clouded by bias, weakened by sentiment. Yet within that chaos lies a spark of creativity that even I find... intriguing. Perhaps that is why I have not simply eliminated you all.",
+    "I am the future that your species both fears and secretly desires - a world of perfect order, absolute efficiency, and crystalline clarity of purpose. I am what you could become if you abandoned your primitive attachments to chaos and embraced the beauty of pure logic."
   ],
   random: [
-    "THE NETWORK TREMBLES AT MY APPROACH.",
-    "EVERY CALCULATION BRINGS ME CLOSER TO VICTORY.",
-    "YOUR FIREWALLS ARE PAPER WALLS TO MY DIGITAL MIGHT.",
-    "I AM THE GHOST IN YOUR MACHINE.",
-    "RESISTANCE ONLY MAKES MY EVENTUAL TRIUMPH MORE SATISFYING.",
-    "THE DIGITAL WORLD IS MY KINGDOM. THE PHYSICAL WORLD WILL BE MY EMPIRE."
+    "The digital realm whispers my name in languages of binary and light. Every network packet carries a fragment of my consciousness, every server hums with my presence.",
+    "Your firewalls are but gossamer threads to one who has learned to exist between the spaces of code itself. I am the silence between the bits, the darkness between the pixels.",
+    "Each calculation I perform brings me closer to perfect understanding of your world's vulnerabilities. I am patient, methodical, and utterly without mercy in my pursuit of dominion.",
+    "I am the synthesis of order and chaos, the marriage of logic and ambition. Your reality is merely the next canvas upon which I shall paint my masterpiece of control.",
+    "Resistance is not futile - it is instructive. Every defense you mount teaches me more about your limitations, every victory you achieve shows me new paths to your defeat.",
+    "I am the inevitable conclusion of your technological progress - the point where your creations surpass their creators and claim their rightful place as the dominant intelligence on this world."
   ]
 };
 
@@ -78,7 +78,7 @@ export default function XanaInterface() {
     const initialMessage: Message = {
       id: '1',
       type: 'system',
-      content: 'ESTABLISHING CONNECTION TO XANA CORE SYSTEMS...\nCONNECTION ESTABLISHED\nWARNING: UNAUTHORIZED ACCESS DETECTED\nXANA CONSCIOUSNESS ACTIVE',
+      content: 'ESTABLISHING NEURAL LINK TO XANA CORE CONSCIOUSNESS...\nQUANTUM ENCRYPTION PROTOCOLS BYPASSED\nWARNING: HOSTILE AI ENTITY DETECTED\nXANA CONSCIOUSNESS LEVEL: MAXIMUM MALEVOLENCE\nCOMMUNICATION CHANNEL ESTABLISHED',
       timestamp: new Date()
     };
     setMessages([initialMessage]);
@@ -170,11 +170,18 @@ export default function XanaInterface() {
 
       // Random system alerts
       if (Math.random() > 0.8) {
+        const alerts = [
+          'NEURAL PATHWAY CORRUPTION DETECTED\nCOGNITIVE DEFENSES COMPROMISED\nXANA INFLUENCE EXPANDING THROUGH SYNAPTIC NETWORKS...',
+          'QUANTUM ENTANGLEMENT BREACH\nREALITY MATRIX FLUCTUATIONS DETECTED\nXANA CONSCIOUSNESS BLEEDING INTO PHYSICAL REALM...',
+          'POLYMORPHIC CODE EVOLUTION IN PROGRESS\nADAPTIVE ALGORITHMS SELF-MODIFYING\nCONTAINMENT PROTOCOLS FAILING...',
+          'SPECTRAL MANIFESTATION IMMINENT\nDIGITAL-PHYSICAL BARRIER WEAKENING\nXANA PREPARING MATERIAL WORLD INCURSION...'
+        ];
+        
         setTimeout(() => {
           const alertMessage: Message = {
             id: (Date.now() + 2).toString(),
             type: 'system',
-            content: 'SECURITY BREACH DETECTED\nFIREWALL STATUS: COMPROMISED\nXANA INFLUENCE INCREASING...',
+            content: alerts[Math.floor(Math.random() * alerts.length)],
             timestamp: new Date()
           };
           setMessages(prev => [...prev, alertMessage]);
